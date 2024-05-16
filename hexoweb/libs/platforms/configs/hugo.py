@@ -2,7 +2,7 @@
 config = {
     "name": "Hugo",
     "posts": {
-        "path": ["content/post"],
+        "path": ["content/posts"],
         "depth": [-1],
         "type": [".md"],
         "save_path": "content/posts/${filename}.md",
@@ -21,7 +21,7 @@ config = {
         "type": ["_index.md", "index.html", "index.md", ".md", ".html"],
         "save_path": "content/${filename}/index.md",
         "scaffold": "archetypes/page.md",
-        "excludes": ["post", "_drafts"]
+        "excludes": ["posts", "_drafts"]
     },
     "configs": {
         "path": [".github", "", "themes", "config"],
