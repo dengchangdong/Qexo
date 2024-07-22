@@ -34,6 +34,19 @@
     <link rel="stylesheet"
           href="{{ cdn_prev }}qexo-static@{{ static_version }}/qexo/argon/argon-dashboard.css"
           type="text/css">
+    <style type="text/css">
+        @media screen and (min-width: 1088px) {
+        	.container-fluid {
+        		width: calc(100% - 3rem) !important;
+        	}
+        	.ps__rail-x, ps__rail-y {
+        		display: none;
+        	}
+            .navbar-vertical.navbar-expand-xs {
+                overflow-y: hidden;
+            }
+        }
+    </style>
     <!-- Specific CSS goes HERE -->
     {% block stylesheets %}
         <style>
