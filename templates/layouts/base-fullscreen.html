@@ -32,6 +32,19 @@
     <link rel="stylesheet"
           href="{{ cdn_prev }}notyf@3.10.0/notyf.min.css"
           type="text/css">
+    <style>
+        @media screen and (min-width: 1088px) {
+        	.container-fluid {
+        		width: calc(100% - 3rem) !important;
+        	}
+        	.ps__rail-x, ps__rail-y {
+        		display: none;
+        	}
+            .navbar-vertical.navbar-expand-xs {
+                overflow-y: hidden;
+            }
+        }
+    </style>
     <!-- Specific CSS goes HERE -->
     {% block stylesheets %}
         <style>
