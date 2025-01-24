@@ -44,9 +44,9 @@ DEFAULT_CDN = [
 ]
 
 DEFAULT_UPDATES = [
-    {"name": "master", "url": "https://github.com/Qexo/Qexo/tarball/master/"},
+    {"name": "master", "url": "https://github.com/dengchangdong/Qexo/tarball/master/"},
     {"name": "dev", "url": "https://github.com/Qexo/Qexo/tarball/dev/"},
-    {"name": "master_ghproxy", "url": "https://mirror.ghproxy.com/https://github.com/Qexo/Qexo/archive/master.tar.gz"},
+    {"name": "master_ghproxy", "url": "https://mirror.ghproxy.com/https://github.com/dengchangdong/Qexo/archive/master.tar.gz"},
     {"name": "dev_ghproxy", "url": "https://mirror.ghproxy.com/https://github.com/Qexo/Qexo/archive/dev.tar.gz"}
 ]
 
